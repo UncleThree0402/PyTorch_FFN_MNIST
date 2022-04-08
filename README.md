@@ -1,4 +1,4 @@
-# Pytorch MNIST
+# Pytorch FFN MNIST Number Prediction
 
 ## Data
 
