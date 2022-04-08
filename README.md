@@ -9,18 +9,18 @@ Data is from [TorchVision Dataset](https://pytorch.org/vision/main/generated/tor
 28 x 28 pixel, 1 channel
 
 ### Data Image
-![data_image]()
+![data_image](https://github.com/UncleThree0402/PyTorch_FFN_MNIST/blob/master/Photo/MNIST_numbers_Images.png)
 
 ### Data Before Normalized
-![data_before]()
+![data_before](https://github.com/UncleThree0402/PyTorch_FFN_MNIST/blob/master/Photo/Data_before_normalize.png)
 
 ### Data After Normalized
-![data_after]()
+![data_after](https://github.com/UncleThree0402/PyTorch_FFN_MNIST/blob/master/Photo/Data_after_normalize.png)
 
 ### Count of label
 To check is dataset balanced
 
-![count_labels]()
+![count_labels](https://github.com/UncleThree0402/PyTorch_FFN_MNIST/blob/master/Photo/count_labels.png)
 
 ## Model
 
@@ -87,16 +87,18 @@ lr_scheduler = torch.optim.lr_scheduler.StepLR(optimizer, step_size=lr_step, gam
 ## Train
 
 ### Loss
-![losses]()
+![losses](https://github.com/UncleThree0402/PyTorch_FFN_MNIST/blob/master/Photo/losses.png)
+> Valid lower mostly because using dropout layer
 
 ### Accuracy
-![accuracies]()
+![accuracies](https://github.com/UncleThree0402/PyTorch_FFN_MNIST/blob/master/Photo/accuracies.png)
+> Valid higher mostly because using dropout layer
 
 ### Learning Rate
-![lr_rate]()
+![lr_rate](https://github.com/UncleThree0402/PyTorch_FFN_MNIST/blob/master/Photo/lr_rate.png)
 
 ## Performance
-![performance]()
+![performance](https://github.com/UncleThree0402/PyTorch_FFN_MNIST/blob/master/Photo/performance.png)
 > We can see that model performance is unbiased.
 
 * Train Accuracy : 98.8%
@@ -166,10 +168,10 @@ weighted avg       0.97      0.97      0.97      7000
 ### Confusion matrix
 
 #### Train
-![train_conf]()
+![train_conf](https://github.com/UncleThree0402/PyTorch_FFN_MNIST/blob/master/Photo/tcfm.png)
 
 #### Valid
-![valid_cm]()
+![valid_cm](https://github.com/UncleThree0402/PyTorch_FFN_MNIST/blob/master/Photo/vcfm.png)
 
 #### Test
-![test_cm]()
+![test_cm](https://github.com/UncleThree0402/PyTorch_FFN_MNIST/blob/master/Photo/ttcfm.png)
